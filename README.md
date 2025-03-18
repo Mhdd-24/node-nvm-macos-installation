@@ -1,30 +1,28 @@
 # node-nvm-macos-installation
 This repository provides a step-by-step guide on installing Node.js and NVM (Node Version Manager) on Mac/macOS. It includes essential terminal commands, version management, and switching between different Node.js versions.
 
-Here’s a neatly formatted and well-structured README.md file with proper alignment and clarity:
 
-⸻
+# 🛠️ Node.js and NVM Installation on macOS
 
-🛠️ How to Install Node.js and NVM on macOS
+This repository provides a step-by-step guide on installing **Node.js** and **NVM (Node Version Manager)** on macOS.  
+It includes essential terminal commands, version management, and switching between different Node.js versions.
 
-A step-by-step guide to installing Node.js and NVM (Node Version Manager) on macOS using the terminal.
+---
 
-⸻
-
-📌 Prerequisites
+## 📌 Prerequisites
 
 Ensure you have:
-✔️ A macOS system
-✔️ Terminal access
+✔️ A macOS system  
+✔️ Terminal access  
 
-⸻
+---
 
-🚀 Installation Steps
+## 🚀 Installation Steps  
 
-1️⃣ Open Terminal and Verify Your Current Directory
-
-pwd            # Print current working directory
-ls -al         # List all files (including hidden ones)
+### 1️⃣ Open Terminal and Verify Your Current Directory  
+```sh
+pwd      # Print current working directory
+ls -al   # List all files (including hidden ones)
 
 2️⃣ Create or Edit the .zshrc File
 
@@ -48,7 +46,7 @@ nvm ls-remote  # Displays all available Node.js versions
 
 7️⃣ Install a Specific Node.js Version
 
-nvm install <node_version>  # Replace <node_version> with desired version
+nvm install <node_version>  # Replace <node_version> with the desired version
 
 🔹 Example:
 
@@ -112,20 +110,8 @@ This project is licensed under the MIT License.
 🔗 Connect with Me
 
 📧 Email: mhdd24.rafi@gmail.com
-💻 GitHub: https://github.com/Mhdd-24
+💻 GitHub: Mhdd-24
 
 ⸻
 
-This format ensures:
-✔ Proper alignment
-✔ Clear section separation
-✔ Consistent formatting
-✔ Easy readability
-
-Now, commit and push this to GitHub using:
-
-git add README.md
-git commit -m "Added structured README with detailed installation steps"
-git push origin main
-
-Your repository is now well-documented and professional! 🚀
+🚀 Push Updated README to GitHub
